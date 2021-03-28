@@ -1,0 +1,81 @@
+.box {
+    border: 2px solid grey;
+    width: 85px;
+    height: 85px;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+#line-1 {
+    display: flex;
+}
+
+#line-2 {
+    display: flex;
+}
+
+#line-3 {
+    display: flex;
+}
+
+#box1 , #box2 , #box4 , #box5 , #box7 , #box8{
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+
+body {
+    background-color: beige;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#all_boxes {
+    margin-left: 400px;
+}
+
+.styling-compute {
+    box-shadow: 2px 2px 5px black;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 2px 2px;
+    width: fit-content;
+    margin-right: 15px;
+}
+
+#box_message {
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 5px 5px;
+    height: 25vh;
+    width: 350px;
+    overflow-y: auto;
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    position: sticky;
+    bottom: 0;
+}
+
+#myImg {
+    border-radius: 999px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+}
+
+#game-started {
+    float: none;
+}
+
+#user1-selections {
+    float: left;
+}
+
+#user2-selections {
+    float: right;
+}
+
+#game-finished {
+    font-size: medium;
+    max-width: 999px;
+    margin-top: 100px;
+}
